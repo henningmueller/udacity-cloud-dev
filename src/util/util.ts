@@ -2,7 +2,7 @@ import fs from "fs";
 import Jimp = require("jimp");
 import path from "path";
 
-import axios from 'axios'; // You can install it via npm if you haven't: `npm install axios`
+import axios from 'axios';
 
 export async function filterImageFromURL(inputURL: string): Promise<string> {
   return new Promise(async (resolve, reject) => {
